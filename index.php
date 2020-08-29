@@ -18,7 +18,7 @@
 } ?>
 
     <?php 
-        if (isset($_GET['pag'])) {
+        if (isset($_GET['page'])) {
             
             include_once __DIR__.'/controller/display_data.php';
             include_once __DIR__.'/controller/delete_data.php';
